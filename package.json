@@ -1,0 +1,32 @@
+{
+  "name": "binance-automator",
+  "version": "0.1.0",
+  "description": "Automate binance transactions",
+  "main": "get_all_symbols.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-binance-api": "0.11.11",
+    "dotenv": "8.2.0"
+  },
+  "devDependencies": {
+    "jest": "26.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trystant/binance-automator.git"
+  },
+  "keywords": [
+    "binance",
+    "node",
+    "automator"
+  ],
+  "author": "Mark Nyon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trystant/binance-automator/issues"
+  },
+  "homepage": "https://github.com/trystant/binance-automator#readme"
+}
